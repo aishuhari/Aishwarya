@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="../Scripts/jquery-3.4.1.js"></script>
+    <style>
+        .Format{
+            background-color:gold;
+
+
+        }
+    </style>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <th>Book Name</th>
+            <th>Author Name</th>
+        </tr>
+        <tr>
+            <td>Two States</td>
+            <td>Chetan Bhagat</td>
+        </tr>
+        <tr>
+        <td>The Boy Who Loved </td>
+        <td>Durjoy Datta</td>
+        </tr>
+        <tr>
+            <td>It Started With A Friend Request</td>
+            <td>Sudeep Nagarkar</td>
+        </tr>
+    </table>
+    <script>
+        $("td").hover(function () {
+            $(this).addClass("Format");
+        },
+            function ()
+            {
+                $(this).removeClass("Format");
+            }
+        );
+    </script>
+
+</body>
+</html>
