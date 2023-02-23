@@ -1,0 +1,200 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="../Scripts/jquery-3.4.1.js"></script>
+    <link href="../Content/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        .Format {
+            background-color: gold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <table class="table">
+            <tr>
+                <td>Sno</td>
+                <td>Name</td>
+                <td>Birthday</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Joy</td>
+                <td>Nov 20</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Vishwa</td>
+                <td>Jan 14</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Ashraf</td>
+                <td>Jan 24</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Raagul</td>
+                <td>Sep 3</td>
+            </tr>
+        </table>
+        <hr />
+        <h1>Striped Table</h1>
+        <table class="table table-striped">
+          <tr>
+                <td>Sno</td>
+                <td>Name</td>
+                <td>Birthday</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Joy</td>
+                <td>Nov 20</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Vishwa</td>
+                <td>Jan 14</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Ashraf</td>
+                <td>Jan 24</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Raagul</td>
+                <td>Sep 3</td>
+            </tr>
+            </table>
+        <hr />
+        <h1>Bordered Table</h1>
+        <table class="table table-bordered">
+             <tr>
+                <td>Sno</td>
+                <td>Name</td>
+                <td>Birthday</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Joy</td>
+                <td>Nov 20</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Vishwa</td>
+                <td>Jan 14</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Ashraf</td>
+                <td>Jan 24</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Raagul</td>
+                <td>Sep 3</td>
+            </tr>
+        </table>
+        <hr />
+        <h1>Hovered Table</h1>
+        <table class="table table-hover">
+              <tr>
+                <td>Sno</td>
+                <td>Name</td>
+                <td>Birthday</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Joy</td>
+                <td>Nov 20</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Vishwa</td>
+                <td>Jan 14</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Ashraf</td>
+                <td>Jan 24</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Raagul</td>
+                <td>Sep 3</td>
+            </tr>
+        </table>
+        <hr />
+        <h1>Condensed Table</h1>
+        <table class="table table-condensed">
+              <tr>
+                <td>Sno</td>
+                <td>Name</td>
+                <td>Birthday</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Joy</td>
+                <td>Nov 20</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Vishwa</td>
+                <td>Jan 14</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Ashraf</td>
+                <td>Jan 24</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Raagul</td>
+                <td>Sep 3</td>
+            </tr>
+        </table>
+        <hr />
+        <h1>Table</h1>
+        <table class="table">
+              <tr>
+                <td>Sno</td>
+                <td>Name</td>
+                <td>Birthday</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Joy</td>
+                <td>Nov 20</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Vishwa</td>
+                <td>Jan 14</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Ashraf</td>
+                <td>Jan 24</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Raagul</td>
+                <td>Sep 3</td>
+            </tr>
+        </table>
+    </div>
+    <script>
+        $("td").hover(function () {
+            $(this).addClass("Format");
+        },
+            function () {
+                $(this).removeClass("Format");
+            }
+        );
+    </script>
+
+</body>
+</html>
